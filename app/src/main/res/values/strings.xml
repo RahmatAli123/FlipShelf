@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlipShelf</string>
+    <string name="already_have_an_account_login">already_have_an_account_login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_intro_page">By connecting your account confirm that you agree \n with our <font color='#1D1E20'>Term and Condition</font> </string>
+    <string name="second">The Nike Throwback Pullover Hoodie is made \n from premium French terry fabric that blends a \n performance feel with <font style='bold' color='#1D1E20' size='18'> Read More.</font></string>
+    <string name="second_desc">Lorem ipsum dolor sit amet, consectetur \n adipiscing elit. Pellentesque malesuada eget \n vitae amet...</string>
+    <string name="welcome_rating"><font style='bold' color='black' size='18'>4.8 </font> <font color='#1D1E20'>rating</font></string>
+
+        <string name="nav_open" />
+        <string name="nav_close" />
+
+
+</resources>

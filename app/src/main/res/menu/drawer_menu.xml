@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Account_Information"
+        android:icon="@drawable/info_circe"
+        android:title="Account Information" />
+    <item
+        android:id="@+id/nav_Password"
+        android:icon="@drawable/lock"
+        android:title="Password" />
+    <item
+        android:id="@+id/nav_Oder"
+        android:title="Order" />
+
+   <item
+       android:id="@+id/nav_Cards"
+       android:icon="@drawable/wallet"
+       android:title="My Cards" />
+    <item
+        android:id="@+id/nav_Wishlist"
+        android:icon="@drawable/heart_oh"
+        android:title="Wishlist" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/setting"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</menu>
