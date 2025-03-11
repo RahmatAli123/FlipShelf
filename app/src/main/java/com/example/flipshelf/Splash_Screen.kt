@@ -1,14 +1,12 @@
 package com.example.flipshelf
 
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.flipshelf.Activity.LoginActivity
+import com.example.flipshelf.Activity.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class Splash_Screen : AppCompatActivity() {
@@ -19,9 +17,9 @@ class Splash_Screen : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             if (auth.currentUser!=null){
-                startActivity(Intent(this,MainActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
             }else{
-                startActivity(Intent(this,Registration_Screen::class.java))
+                startActivity(Intent(this, LoginActivity::class.java))
             }
             finish()
         },1000)

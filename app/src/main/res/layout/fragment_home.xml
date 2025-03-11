@@ -90,14 +90,20 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
-        <SearchView
+        <EditText
             android:id="@+id/searchView"
-            android:layout_width="match_parent"
+            android:layout_width="320sp"
             android:layout_height="50dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/search_background"
-            android:queryHint="Search..."
-            app:iconifiedByDefault="true" />
+            android:layout_marginStart="20dp"
+            android:background="@drawable/white_bg"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Search..."
+            android:drawableStart="@drawable/search"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"/>
+
 
 
         <androidx.cardview.widget.CardView

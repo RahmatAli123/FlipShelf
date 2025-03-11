@@ -10,7 +10,7 @@
 
         android:id="@+id/heart"
         android:icon="@drawable/heart_oh"
-        android:title="Heart" />
+        android:title="Wishlist" />
 
     <item
         android:id="@+id/bag"

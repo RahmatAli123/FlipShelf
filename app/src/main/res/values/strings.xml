@@ -8,8 +8,10 @@
     <string name="second_desc">Lorem ipsum dolor sit amet, consectetur \n adipiscing elit. Pellentesque malesuada eget \n vitae amet...</string>
     <string name="welcome_rating"><font style='bold' color='black' size='18'>4.8 </font> <font color='#1D1E20'>rating</font></string>
 
-        <string name="nav_open" />
-        <string name="nav_close" />
+    <string name="nav_open" />
+    <string name="nav_close" />
+    <string name="text1">Fill your information below or \n register with social media account</string>
+    <string name="loginText">We missed you! Login to continue \n your journey with us</string>
 
 
 </resources>

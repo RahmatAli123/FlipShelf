@@ -44,13 +44,25 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.storage.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.google.firebase.auth.v2130)
-    implementation ("de.hdodenhof:circleimageview:3.1.0")
-    implementation ("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
+    implementation (libs.circleimageview)
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
+//    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.0")
+    implementation (libs.picasso)
+
+
 
 
 
